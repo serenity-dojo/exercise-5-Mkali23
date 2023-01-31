@@ -15,7 +15,7 @@ public class DogClassTest {
 
     @Test
     public void shouldBeAPet() throws Exception {
-        assertThat(Class.forName("com.serenitydojo.Dog").getSuperclass().getSimpleName()).isEqualTo("Pet");
+        assertThat(Class.forName("com.serenitydojo.Dog").getSuperclass().getSimpleName()).isEqualTo("com.serenitydojo.Pet");
     }
 
     @Test
