@@ -11,7 +11,7 @@ public class Hamster extends Pet {
 
     }
     public String play(){
-        return "runs in wheels";
+        return "runs in wheel";
     }
 
 
